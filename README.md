@@ -4,6 +4,11 @@ A full-featured, modern webshop built with **React** on the frontend and **Node.
 
 ---
 
+### Images of the page
+![](./assets/loginPage.PNG)
+![](./assets/homePage.PNG)
+![](./assets/cartPage.PNG)
+
 ###  Architecture Breakdown
 - **Frontend**: React + Tailwind CSS
 - **API Layer** (`Express`)
