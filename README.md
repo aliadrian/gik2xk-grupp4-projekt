@@ -4,10 +4,13 @@ A full-featured, modern webshop built with **React** on the frontend and **Node.
 
 ---
 
-### Images of the page
-![](./assets/loginPage.PNG)
-![](./assets/homePage.PNG)
-![](./assets/cartPage.PNG)
+## Images of the page
+### Login page
+![](./assets/loginPage.png)
+### Home page
+![](./assets/homePage.png)
+### Cart page
+![](./assets/cartPage.png)
 
 ###  Architecture Breakdown
 - **Frontend**: React + Tailwind CSS
@@ -140,12 +143,13 @@ These services are the brain of your backend logic:
 
 ```bash
 cd backend
-npm install
+npx sequelize-cli db:migrate
+node server.js
 ```
 	
  Create a .env file based on .env.example and fill in DB credentials.
 	
- •	Run Sequelize migrations or sync models directly.
+ • Run Sequelize migrations or sync models directly.
  
  Start server: node app.js
 
