@@ -72,7 +72,42 @@ All database interactions are abstracted using Sequelize, which allows:
 
 ### Folder Structure
 
+- frontend/
+  - public/
+  - src/
+    - components/
+      - CartSidebar.js
+      - CartItems.js
+      - Navbar.js
+      - UserDropdown.js
+    - context/
+      - CartContext.js
+    - pages/
+      - ProductList.js
+      - ProductDetails.js
+      - MyCart.js
+    - App.js
+    - main.jsx
 
+- backend/
+  - app.js
+  - config/
+    - database.js
+  - models/
+    - user.js
+    - product.js
+    - cart.js
+    - rating.js
+  - routes/
+    - userRoutes.js
+    - productRoutes.js
+  - services/
+    - userService.js
+    - productService.js
+
+- .env
+- package.json
+- README.md
 
 
 ### Service Logic
@@ -131,7 +166,7 @@ DB_PASSWORD=yourpassword
 ### Author
 
 - Adrian Nasrat
-- Systemvetare | Dalarna University
+- Systems Scientist | Dalarna University
 - Junior Software Engineer
 - Portfolio: https://a-n-v.vercel.app/
 - GitHub: https://github.com/aliadrian
