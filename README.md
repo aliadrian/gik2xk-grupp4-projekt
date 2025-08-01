@@ -170,3 +170,6 @@ DB_PASSWORD=yourpassword
 - Junior Software Engineer
 - Portfolio: https://a-n-v.vercel.app/
 - GitHub: https://github.com/aliadrian
+
+# Captures of the shop
+
