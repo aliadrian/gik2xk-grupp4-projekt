@@ -4,14 +4,6 @@ A full-featured, modern webshop built with **React** on the frontend and **Node.
 
 ---
 
-## Images of the page
-### Login page
-![](./assets/loginPage.png)
-### Home page
-![](./assets/homePage.png)
-### Cart page
-![](./assets/cartPage.png)
-
 ###  Architecture Breakdown
 - **Frontend**: React + Tailwind CSS
 - **API Layer** (`Express`)
@@ -180,5 +172,10 @@ DB_PASSWORD=yourpassword
 - Portfolio: https://a-n-v.vercel.app/
 - GitHub: https://github.com/aliadrian
 
-# Captures of the shop
-
+# Images of the shop
+### Login page
+![](./assets/loginPage.png)
+### Home page
+![](./assets/homePage.png)
+### Cart page
+![](./assets/cartPage.png)
